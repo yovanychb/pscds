@@ -1,0 +1,44 @@
+table, th, td{
+    border: 2px solid #fff;
+}
+
+#tabla{
+    position: absolute;
+    left: 5%;
+    right: 40%;
+    border: 3px solid #fff;
+    padding: 3%;
+}
+
+#form{
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    border: 3px solid #fff;
+    padding: 3%;
+}
+img{
+    width: 25%;
+    
+}
+    
+body{
+
+    background-color:#607d8b;
+}
+
+        h1{
+text-align: center;
+font-size: 60px;
+font-family: monospace;
+color: #e3f2fd;
+
+    }
+h2{
+    margin-left: 40.5%;
+    font-family: monospace;
+    font-size: 29px; 
+    color: #e3f2fd;
+}       
+
+
