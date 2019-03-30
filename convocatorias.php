@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Convocatorias</title>
     <link rel="stylesheet" href="css/style.css">
-    
 </head>
 <body>
-    
     <?php
         require_once("inicio.php");
             $id = "";
@@ -31,9 +29,7 @@
             $fin = $row['Fecha_Fin'];
             $cantidad = $row['Cantidad'];
             $curso = $row['Id_Curso'];
-            //header("convocatorias.php");
             $add = false;
-            
         }
 
         $consulta = "SELECT * FROM Cursos";
@@ -84,6 +80,7 @@
                         <th>Curso</th>
                         <th>Accion</th>
                         </tr>';
+                        
             $consulta = "SELECT * FROM Convocatorias";
 
             $result = $conexion -> query($consulta);
